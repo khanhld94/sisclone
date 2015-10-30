@@ -1,0 +1,310 @@
+﻿
+body {
+    background: #526d9b none repeat scroll 0 0;
+    font-family: tahoma;
+    font-size: 12px;
+}
+.wrapper{
+    margin-top: 20px;
+}
+.right {
+    float: right;
+}
+figure {
+    margin: 0 0 10px;
+    padding: 0;
+}
+figure img {
+    max-width: 100%;
+    min-height: 100px;
+}
+/*header*/
+
+#header .top {
+    margin-bottom: 20px;
+    position: relative;
+}
+#header .top form {
+    font-size: 12px;
+}
+#header .top form {
+    color: #fff;
+    margin-left: 30px;
+}
+#header .top form .form-group {
+    margin-right: 20px;
+}
+#header .top form .form-group input {
+    color: #000;
+    max-height: 25px;
+    max-width: 120px;
+    padding: 0px 10px;
+    //border-radius: 0px;
+    line-height: 25px;
+}
+#header .top form .btn-default {
+    background: #d3e4a6 none repeat scroll 0 0;
+    font-weight: normal;
+    padding: 1px 15px;
+    text-shadow: none;
+    border-radius: 0px;
+}
+
+/*main-nav*/
+#main-nav {
+    background: #d3e4a6 url("../images/mItemBack.gif") repeat-x scroll center bottom;
+    border: 5px solid #7d8da9;
+    min-height: 25px;
+}
+#main-nav .navbar-nav > .open > a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    box-shadow: none;
+}
+#menu ul.l1 li.l1 {
+    border-right: 1px solid #e97051;
+}
+#menu ul.l1 li.l1 a {
+    color: #000;
+    padding: 7px 10px 11px;
+    text-shadow: none;
+}
+#menu ul.l1 li.l1 a.dropdown-toggle {
+}
+#menu ul.l2 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: rgba(250, 255, 238, 0.63) none repeat scroll 0 0;
+    border-color: -moz-use-text-color rgba(255, 255, 255, 0.81) rgba(255, 255, 255, 0.81);
+    border-image: none;
+    border-radius: 0;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    font-size: 12px;
+}
+/*end*/
+#body{
+    margin-bottom: 20px;
+}
+#body .container {
+    background: #8291ac none repeat scroll 0 0;
+    padding: 5px;
+}
+#body .row >header i {
+    color: #b82323;
+    font-size: 40px;
+}
+#body .row >header span {
+    color: #ffae41;
+    font-size: 20px;
+    font-weight: bold;
+}
+#body .row >header{
+    border-bottom: 5px solid #293955;
+    margin-bottom: 10px;
+}
+
+/*body trang chủ*/
+#home .title{
+color: #A10000;
+ font-size: 15px;
+ font-weight: bold;
+ margin-bottom: 20px;
+}
+#home {
+    background: #ebebeb none repeat scroll 0 0;
+    margin: 0px;
+    padding: 10px;
+}
+
+/*content*/
+#content{
+
+}
+#content .list_news{
+    border-bottom: 5px solid #E5EECF;
+    margin-bottom: 10px;
+}
+#content .list_news .title{
+ 
+}
+#content .list_news ul.list{
+    color: blue;
+    padding: 10px; 
+}
+#content .list_news li.list{
+    list-style: none;
+    margin-bottom: 20px;
+}
+#content .list_news li.list i.time{
+    border-right: 4px solid #804040;
+    float: left;
+    font-size: 14px;
+    font-style: initial;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+#content .list_news li.list div.link{
+    
+    float: left;
+}
+#content .list_news li.list a.link{
+    font-weight: normal;
+    font-size: 1.5em;
+    color: blue;
+}
+#content a{
+    color: blue;
+}
+#content .list_news li.list .description{
+    font-size: 12px;
+}
+/*end*/
+/*aside*/
+#hot_news{
+    border: 1px solid #808080;
+    padding: 10px;
+}
+#hot_news .title{
+    margin-bottom: 10px;
+}
+#hot_news .list_news{
+    padding: 10px;
+}
+#hot_news ul.list_news li.link{
+    list-style: none;
+    border-left: 4px solid #804040;
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+#hot_news ul.list_news li.link:last-child{
+    margin-bottom: 20px;
+}
+#hot_news ul.list_news li.link i{
+    margin-right: 10px;
+}
+#hot_news ul.list_news li.link a{
+    color: blue;
+}
+/*end*/
+/*body trang login*/
+#form-login{
+    margin: auto;
+    float: none;
+    border: 1px solid #AA9797;
+    height: 510px;
+    position: relative;
+    margin-top: 30px;
+}
+#form-login>div{
+    margin: 20px auto;
+    float: none;
+}
+#form-login >.title{
+    position: absolute;
+    top: -10px;
+    left: 30%;
+    float: none;
+    margin: 0px;
+    color: #4B4848;
+    text-transform: uppercase;
+    background: #EBEBEB;
+}
+.error{
+    color: red;
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#form-login button{
+    float: right;
+}
+#form-login label{
+    text-align: left;
+}
+/*body trang dk*/
+#list_table {
+    background: #ebebeb none repeat scroll 0 0;
+    margin: 0;
+    padding: 10px;
+}
+#list_table .table_detail .title {
+    background-color: #afc185;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding: 8px;
+    text-align: center;
+}
+#list_table  .detail .semester{
+}
+#list_table  .detail .semester form{
+    float: left;
+    margin-right: 10px;
+}
+#list_table  .detail .semester form select{
+    padding: 0px 10px;
+    height: 25px;
+}
+#list_table  .detail .semester p{
+    line-height: 25px;
+    font-weight: bold;
+}
+#list_table  .detail .resgiter{
+    line-height: 25px;
+}
+#list_table  .detail .resgiter label{
+    margin-right: 10%;
+}
+#list_table  .detail .resgiter input{
+    height: 25px;
+    padding: 0px 10px;
+}
+#list_table  .detail .resgiter button{
+    height: 25px;
+    padding: 0px 20px;
+    text-align: center;
+    border-radius: 0px;
+    background: #E5EECF;
+    border: 1px solid #AFC185;
+}
+#body .container .row table {
+    background: #fff none repeat scroll 0 0;
+}
+th {
+    font-weight: normal;
+}
+#body .container .row table thead {
+    background: #9CC525;
+    color: #fff;
+}
+/*end*/
+/*footer*/
+#footer{
+    margin-bottom: 50px;
+    font-size: 13px;
+}
+#footer .row{
+    text-align: center;
+    background: #7D8DA9;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+#footer .row .title{
+    margin-top: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+#footer .row .name{
+    color: #7F0022;
+    margin-bottom: 10px;
+}
+#home
+{
+background : #DDF;
+}
